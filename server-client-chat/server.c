@@ -5,7 +5,6 @@
 #include "sys/socket.h"
 #include "netinet/in.h"
 #include "stdlib.h"
-#include <sys/_types/_socklen_t.h>
 
 void error(const char *msg) {
   perror(msg);
